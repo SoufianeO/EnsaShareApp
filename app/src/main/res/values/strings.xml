@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EnsaShare</string>
+    <string name="todo">todo</string>
+    <string name="sign_in">sign_in</string>
+    <string name="sign_up">sign_up</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="forget_your_password">forget_your_password</string>
+    <string name="textPassword">mot de passe</string>
+    <string name="nom">Nom</string>
+    <string name="button">Button</string>
+    <string name="name">Name</string>
+</resources>
