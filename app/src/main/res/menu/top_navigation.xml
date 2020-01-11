@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_posts"
+        android:textSize="50dp"
+        android:title="Posts" />
+    <item
+        android:id="@+id/nav_files"
+        android:textSize="50dp"
+        android:title="Files"/>
+    <item
+        android:id="@+id/nav_members"
+        android:textSize="50dp"
+        android:title="Members"/>
+
+</menu>

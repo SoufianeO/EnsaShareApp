@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".view.pop_up_listlevelsteacher">
+
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="357dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Please Check Your School Level"
+            android:textColor="#3C3B3B"
+            android:paddingBottom="10dp"
+            android:textSize="17sp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-smallcaps" />
+
+    <CheckBox
+        android:id="@+id/GI1checkbox"
+        android:layout_width="210dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/rounded_button"
+        android:text="GI1" />
+
+    <CheckBox
+        android:id="@+id/GI2checkbox"
+        android:layout_width="210dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_button"
+        android:text="GI2" />
+
+    <CheckBox
+        android:id="@+id/GI3checkbox"
+        android:layout_width="210dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_button"
+        android:text="GI3" />
+
+        <ImageView
+            android:id="@+id/nextlevelshooseteacher"
+            android:layout_width="63dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/right_arrow" />
+
+
+</LinearLayout>

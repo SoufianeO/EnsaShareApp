@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="223dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="181dp"
+                    android:src="@drawable/shape6" />
+
+                <TextView
+                    android:id="@+id/quote"
+                    android:layout_width="339dp"
+                    android:layout_height="137dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:textColor="#FFF7F7"
+                    android:textSize="24sp"
+                    app:fontFamily="@font/grand_hotel" />
+
+                <TextView
+                    android:id="@+id/nomComplet"
+                    android:layout_width="312dp"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="155dp"
+                    android:text="TextView"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageGroup"
+                    android:layout_width="87dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="140dp"
+                    android:src="@drawable/student1"
+
+                  />
+
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="My Groups"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif-smallcaps"
+                     />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/groupRecycle"
+                    android:layout_width="match_parent"
+                    android:layout_height="147dp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:text="Recommendations "
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif-smallcaps" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/clubRecycle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

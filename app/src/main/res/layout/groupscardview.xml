@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:background="#ffffff"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="415dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/google_play_services_version"
+            android:background="#00991C1C"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageGroup"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/student"
+                app:civ_border_color="#FFF"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/groupname"
+                android:layout_width="146dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif-smallcaps" />
+
+            <Button
+                android:id="@+id/acceder"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="#009688"
+                android:text="Acceder"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

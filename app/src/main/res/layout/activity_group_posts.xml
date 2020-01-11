@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="410dp"
+    android:orientation="vertical"
+    tools:context=".view.group_posts">
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/postsRecycleView"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:background="#F95959"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/postEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Share your post"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/fileButton"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                app:srcCompat="@drawable/file" />
+
+            <ImageView
+                android:id="@+id/imageButton"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/image" />
+
+            <ImageView
+                android:id="@+id/imageSend"
+                android:layout_width="80dp"
+                android:layout_height="67dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/senicon" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

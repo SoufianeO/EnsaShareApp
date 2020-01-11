@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    tools:context=".view.pop_up_registered">
+
+
+ <TextView
+     android:id="@+id/textView12"
+     android:layout_width="match_parent"
+     android:layout_height="64dp"
+     android:gravity="center"
+
+     android:textColor="#050505"
+     android:textSize="24sp"
+     android:textStyle="bold"
+     app:fontFamily="sans-serif-smallcaps"
+
+     android:text="You are registered with sucess" />
+
+ <ImageView
+     android:id="@+id/nextsignup"
+     android:layout_width="63dp"
+     android:layout_height="61dp"
+     android:layout_gravity="end"
+     android:layout_marginStart="20dp"
+     android:layout_marginTop="10dp"
+
+     android:layout_marginEnd="20dp"
+     android:layout_marginRight="20dp"
+     android:layout_marginBottom="10dp"
+     android:background="@drawable/right_arrow"
+     android:visibility="visible" />
+
+
+
+
+</LinearLayout>
+
